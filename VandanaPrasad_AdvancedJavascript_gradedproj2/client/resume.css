@@ -1,0 +1,181 @@
+body {
+    background-color: khaki;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.searchBar {
+    background-color: cadetblue;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    position: sticky;
+    opacity: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1000;
+}
+
+.searchBar input {
+    width: 30%;
+    height: 40px;
+    font-weight: bold;
+    outline: none;
+}
+
+.next {
+    float: right;
+}
+
+.previous {
+    float: left;
+}
+
+.searchBar button {
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.searchResultNegative {
+    display:none;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5em;
+    width: 50%;
+    height: 10em;
+    box-shadow: 5px 5px 5px black;
+}
+
+#noResultImage {
+    margin: 15px;
+    width: auto;
+}
+
+#noResult {
+    font-size: x-large;
+    color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.searchResultPositive {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+
+}
+
+.resume-container {
+    padding-right: 5px;
+    padding-top: 10px;
+
+}
+
+.resumeBody {
+    padding-bottom: 3rem;
+}
+
+.sideBar {
+    background-color: azure;
+    margin: 1em 0.5em 1em 0.5em;
+    padding: 1vh;
+    width: 20%;
+    height: fit-content;
+}
+
+.resumeBody {
+    padding-right: 5px;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+}
+
+.resumeHead {
+    background-color: lightgray;
+    display: flex;
+    height: 8em;
+}
+
+.resumeHead label {
+    margin-bottom: 0px;
+}
+
+.nameDiv {
+    width: 85%;
+    text-align: center;
+
+}
+
+.imageDiv {
+    width: 15%;
+    height: 8em;
+    float: right;
+    margin: 0px;
+    right: 0;
+}
+
+.profileImage {
+    width: 100%;
+    height: 100%;
+}
+
+.sideBar h4 {
+    background-color: lightgray;
+    margin: 0px;
+}
+
+.resumeDetails {
+    padding-right: 3em;
+    width: 80%;
+
+}
+
+.resumeDetails~h3 {
+    margin: 2em;
+}
+
+.resumeDetails div {
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: left;
+    justify-content: left;
+}
+
+h4~p {
+    margin: 2px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.head {
+    background-color: azure;
+    width: 100%;
+    margin: 1em 0.5em 1em 0.5em;
+    padding: 1vh;
+
+}
+
+.detail {
+    margin: 3px 2em 3px 2em;
+    word-break: normal;
+    width: 100%;
+}
+
+.detail>p {
+    display: inline;
+
+}

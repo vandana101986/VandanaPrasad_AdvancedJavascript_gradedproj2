@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.loginForm {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+    width: fit-content;
+    background-color: khaki;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 darkgray, 0 6px 20px 0 darkgray;
+}
+
+.title {
+
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.input-container {
+    margin: 10px;
+}
+
+.submit-button {
+    margin-top: 1rem;
+    background-color: black;
+    color: aliceblue;
+    padding: 6px;
+    border-radius: 10px;
+
+}
+
+.button-container {
+    text-align: center;
+}
+
+input+div {
+    font-size: 12px;
+    color: red;
+    text-align: right;
+}
